@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -10,6 +11,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
+    new CleanWebpackPlugin(['build']),
     new HtmlWebpackPlugin({
       template: 'static/index.html',
     }),
