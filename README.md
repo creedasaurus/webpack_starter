@@ -4,11 +4,11 @@ I understand there are a million boilerplates out there, especially for webpack 
 
 ## Getting Started
 * Install dependencies with `npm install`
-* Start development with `npm start` and visit [localhost:9000](localhost:9000)
-* Build for prod and run node server with `npm run frontend && npm run backend` and visit [localhost:3000](localhost:3000)
+* Start development with `npm start` and visit [http://localhost:9000](localhost:9000)
+* Build for prod and run node server with `npm run frontend && npm run backend` and visit [http://localhost:3000](localhost:3000)
 
 ### Give it a try
-Once you have the development server running with `npm start`, open your browser to [localhost:9000](localhost:9000) and try some of the following to see the results of hot reloading. Open up Chrome Dev tools and watch the console output. Also check out the output of `npm start` to see it working as you change things.
+Once you have the development server running with `npm start`, open your browser to [http://localhost:9000](localhost:9000) and try some of the following to see the results of hot reloading. Open up Chrome Dev tools and watch the console output. Also check out the output of `npm start` to see it working as you change things.
 
 * In `App.jsx`, change or add some elements or text. Notice how quickly it changes in the browser without the need to refresh the page. Notice also that it doesn't make the api call again after the hot reload. This means it is maintaining state.
 * Another state example would be in `StateComponent.jsx` where you can toggle the state off some text. You can also change and resave that file and hot reloading will keep the state of the component but will update the text.
